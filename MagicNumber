@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class magicnumber {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number:");
+		int a=sc.nextInt();
+		if(a%9==1) 
+			System.out.println("Magic Number");
+		else 
+			System.out.println("Not Magic Number");
+		
+				
+	}
+
+}
